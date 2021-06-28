@@ -144,35 +144,37 @@ article:hover .description {
     transform: rotate(360deg);
 }
 
-.divfooter {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
+footer {
+    background-color: white;
+    padding-top: 20px;
 }
 
-.footer {
-    font-size: 16px;
+footer article {
+    margin: auto;
+    width: 85%; 
+    text-align: center;
 }
 
-.footerp {
+footer article p {
+    margin-bottom: 10px;
     font-size: 12px;
 }
 
-.fa-credit-card, .fa-user-shield, .fa-gift {
+footer article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+footer article div i {
     color: #1259c3;
-    font-size: 2em;
-    margin-bottom: 2px;
-    transition: all 0.3s;
+    font-size: 40px;   
 }
 
-.fa-credit-card:hover, .fa-user-shield:hover, .fa-gift:hover {
-    color: #39b54a;
-}
-
-.footer-section {
-    margin-top: 8px;
+footer i {
+    transition: all 0.5s;
 }
 
 .copyright {
